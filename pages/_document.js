@@ -21,7 +21,7 @@ export default class MyDocument extends Document {
             <link rel="stylesheet" href="https://goat100.com/css/lightgallery.css" type="text/css"></link>
             <link rel="stylesheet" href="https://goat100.com/css/all.css"></link>
 
-            <script   async  src="https://code.jquery.com/jquery-2.2.4.min.js"  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="  crossorigin="anonymous"></script>
+            <script   async  src="https://code.jquery.com/jquery-2.2.4.min.js"  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="  crossOrigin="anonymous"></script>
       <script  async src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
       <script  async src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.8.2/sweetalert2.js"></script>
           <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
@@ -42,7 +42,7 @@ export default class MyDocument extends Document {
       <script  async src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
       <script  async src="https://cdn.jsdelivr.net/npm/sharer.js@latest/sharer.min.js"></script>
       <script  async src="https://goat100.com/js/ratings.js"></script>
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossOrigin="anonymous" />
 
 
          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />

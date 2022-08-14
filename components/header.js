@@ -8,13 +8,12 @@ import ReactFlagsSelect from "react-flags-select";
 
 import { connect } from "react-redux";
 import Link from "next/link";
-import AppointmentModal from "./appointmentModal";
+
 import { setWishList } from "../redux/actions/wishListAction";
 import { setCartData } from "../redux/actions/cartDataAction";
 import Badge from "@mui/material/Badge";
 import Head from "next/head";
 import Image from "next/image";
-import NewsLetterModal from "./newsletter";
 import renderHTML from "react-render-html";
 import {
   RiCustomerService2Fill,
@@ -1396,13 +1395,7 @@ function createMenu() {
             ))}
         </div>
       </div>
-      {appointment && (
-        <AppointmentModal />
-      )}
-      {/* Start drop hint modal */}
-      <NewsLetterModal />
-
-      {/* End drop hint modal */}
+  
     </div>
   );
 }

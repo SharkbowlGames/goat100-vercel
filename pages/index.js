@@ -105,7 +105,7 @@ export default function Home({ data }) {
     <div className="homepage">
       <Head>
         {seoData.title && (
-          <title>{seoData.title} | Royal Coster</title>
+          <title>GOAT100 | The best of best</title>
         )}
         {seoData.og_description && (
           <meta name="description" content={seoData.og_description}/>

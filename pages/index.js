@@ -6,21 +6,11 @@ import Link from "next/link";
 import Head from "next/head";
 //import Header from "../components/header";
 const Header = loadable(() => import('../components/header'))
-//import Footer from "../components/footer";
-const Footer = loadable(() => import('../components/footer'))
-
+//import Footer from "../components/footer
 import renderHTML from "react-render-html";
-//import Schedule from "../components/schedule";
-const Schedule = loadable(() => import('../components/schedule'))
-
-//import Collection from "../components/collection";
-const Collection = loadable(() => import('../components/collection'))
-
-import Help from "../components/help";
 //const Help = loadable(() => import('../components/header'))
 
 //import Instagram from "../components/instagram";
-const Instagram = loadable(() => import('../components/instagram'))
 
 import Script from "next/script";
 import Image from "next/image";
